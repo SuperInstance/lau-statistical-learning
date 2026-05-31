@@ -1,0 +1,16 @@
+[package]
+name = "lau-statistical-learning"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-statistical-learning"
+description = "Statistical learning theory — mathematical foundations of machine learning: bias-variance tradeoff, VC dimension, PAC learning, Rademacher complexity, cross-validation, regularization, kernel methods, SVMs, and learning curves."
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
+rand = "0.9"
+rand_distr = "0.5"
+
+[dev-dependencies]
+approx = "0.5"
